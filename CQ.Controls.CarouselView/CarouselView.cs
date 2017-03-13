@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace CQ.Controls
 {
-    public class MyCarouselView : CarouselView
+    public class CarouselViewExpand : CarouselView
     {
 
         //public static readonly BindableProperty PeriodProperty = BindableProperty.Create("Period", typeof(double), typeof(MyCarouselView), 3000);
@@ -20,7 +20,7 @@ namespace CQ.Controls
 
         #region CarouselView轮播
 
-        public static readonly BindableProperty AutoPlayProperty = BindableProperty.Create("AutoPlay", typeof(bool?), typeof(MyCarouselView), null, propertyChanged: AutoPlayBindingPropertyChanged);
+        public static readonly BindableProperty AutoPlayProperty = BindableProperty.Create("AutoPlay", typeof(bool?), typeof(CarouselViewExpand), null, propertyChanged: AutoPlayBindingPropertyChanged);
         public bool? AutoPlay
         {
             get { return (bool?)this.GetValue(AutoPlayProperty); }

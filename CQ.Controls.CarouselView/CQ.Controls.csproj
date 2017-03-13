@@ -8,8 +8,8 @@
     <ProjectGuid>{67F9D3A8-F71E-4428-913F-C37AE82CDB24}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CQ.Controls.CarouselView</RootNamespace>
-    <AssemblyName>CQ.Controls.CarouselView</AssemblyName>
+    <RootNamespace>CQ.Controls</RootNamespace>
+    <AssemblyName>CQ.Controls</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -35,8 +35,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CQ.Controls.CarouselView.cs" />
+    <Compile Include="CarouselView.cs" />
+    <Compile Include="FlowLayout.cs" />
+    <Compile Include="HorizentalLayout.cs" />
+    <Compile Include="ItemsControl.cs" />
+    <Compile Include="PivotPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScrollViewExpand.cs" />
+    <Compile Include="ScrollViewiOSRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.CarouselView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
